@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+body{
+  background: linear-gradient(45deg,#1c4acaaf,rgb(123, 16, 162));
+}
+.title{
+   margin: 0 auto 30px auto;
+}
+h1{
+    color: rgb(246, 254, 255);
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 50px;
+}
+p{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+.form-container{
+    color: #ffffff;
+    background-color: rgba(32, 30, 30, 0.703);
+    width:700px;
+    height: 100%;
+    margin: 0 auto 30px auto;
+    padding: 40px;
+}
+.form-content{
+    font-size: 20px;
+}
+label{
+    font-size: 20px;
+    margin-top: 10px;
+}
+span{
+    color: rgb(194, 188, 188);
+}
+.form-content,form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #fffdfd;
+    padding: 10px;
+    margin: 10px auto 20px auto;
+    color: #000000;
+    font-size: 18px;
+    border-radius: 5px;
+}
+#option{
+    display: block;
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #feffff;
+    padding: 10px;
+    margin: 10px auto 10px auto;
+    color: #000000;
+    font-size: 18px;
+    text-align: left;
+    border-radius: 6px;
+}
+.radio{
+    display: inline-block;
+    margin: 10px 20px 10px 0px;
+    min-height: 20px;
+    min-width: 20px;
+}
+#checkbox{
+    display: inline-block;
+    margin: 10px 20px 10px 0px;
+    min-height: 20px;
+    min-width: 20px;
+}
+  form .btn2{
+    width: 100%;
+    padding: 14px 60px;
+    border: none;
+    border-radius: 3px;
+    display: block;
+    font-size: 18px;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(79, 171, 79);
+    cursor: pointer;
+  }
